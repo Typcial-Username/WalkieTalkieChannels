@@ -1,0 +1,9 @@
+{
+    "name": "WalkieTalkieChannels",
+    "description": "Adds channels to the Walkie Talkies",
+    "version_number": "1.0.0",
+    "dependencies": [
+        "com.rune580.LethalCompanyInputUtils"
+    ],
+    "website_url": ""
+}
