@@ -111,3 +111,7 @@ C:\Users\Phoen\source\repos\WalkieTalkieChannels\WalkieTalkieChannels\bin\Debug\
 C:\Users\Phoen\source\repos\WalkieTalkieChannels\WalkieTalkieChannels\obj\Debug\WalkieTalkieChannels.csproj.CopyComplete
 C:\Users\Phoen\source\repos\WalkieTalkieChannels\WalkieTalkieChannels\obj\Debug\WalkieTalkieChannels.dll
 C:\Users\Phoen\source\repos\WalkieTalkieChannels\WalkieTalkieChannels\obj\Debug\WalkieTalkieChannels.pdb
+C:\Users\Phoen\Desktop\Programming\LethalCompany\WalkieTalkieChannels\WalkieTalkieChannels\obj\Debug\WalkieTalkieChannels.csproj.AssemblyReference.cache
+C:\Users\Phoen\Desktop\Programming\LethalCompany\WalkieTalkieChannels\WalkieTalkieChannels\obj\Debug\WalkieTalkieChannels.csproj.CoreCompileInputs.cache
+C:\Users\Phoen\Desktop\Programming\LethalCompany\WalkieTalkieChannels\WalkieTalkieChannels\obj\Debug\WalkieTalkieChannels.dll
+C:\Users\Phoen\Desktop\Programming\LethalCompany\WalkieTalkieChannels\WalkieTalkieChannels\obj\Debug\WalkieTalkieChannels.pdb

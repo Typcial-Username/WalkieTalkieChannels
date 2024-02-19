@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WalkieTalkieChannels.Patches;
-using WalkieTalkieChannels.WalkieTalkieChannelUtils;
+//using WalkieTalkieChannels.Utils;
 
 namespace WalkieTalkieChannels
 {
     [BepInPlugin(GUID, NAME, VERSION)]
-    [BepInDependency("com.rune580.LethalCompanyInputUtils", BepInDependency.DependencyFlags.SoftDependency)]
+    //[BepInDependency("com.rune580.LethalCompanyInputUtils", BepInDependency.DependencyFlags.SoftDependency)]
     public class WalkieTalkieChannels : BaseUnityPlugin
     {
         #region Mod Info
@@ -24,7 +24,7 @@ namespace WalkieTalkieChannels
         #region Instance
         internal static WalkieTalkieChannels _Instance;
         private readonly Harmony harmony = new Harmony(GUID);
-        internal ControlActions Actions;
+        //internal ControlActions Actions;
 
         internal ManualLogSource logger = new ManualLogSource(GUID);
         #endregion

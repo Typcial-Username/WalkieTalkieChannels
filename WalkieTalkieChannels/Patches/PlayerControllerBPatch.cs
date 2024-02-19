@@ -20,7 +20,8 @@ namespace WalkieTalkieChannels.Patches
 
         public void SetupKeybindCallbacks()
         {
-            WalkieTalkieChannels._Instance.Actions.ChannelIncrease.preformed += IncreaseWalkieTalkieChannel;
+            //WalkieTalkieChannels._Instance.Actions.ChannelIncrease.preformed += IncreaseWalkieTalkieChannel;
+            //WalkieTalkieChannels._Instance.Actions.ChannelDecrease.preformed += DecreaseWalkieTalkieChannel;
         }
 
         void IncreaseWalkieTalkieChannel()
@@ -28,16 +29,21 @@ namespace WalkieTalkieChannels.Patches
 
         }
 
+        void DecreaseWalkieTalkieChannel()
+        {
+
+        }
+
         [HarmonyPatch("SwitchToItemSlot")]
         [HarmonyPostfix]
         void SwitchToWalkieTalkie(ref PlayerControllerB ___instance, ref int slot)
-        {
+        {s
             if (___instance.ItemSlots[slot].gameObject.GetComponent<WalkieTalkie>() != null)
             {
-                if (WalkieTalkieChannels._Instance.Actions.ChannelIncrease.)
-                {
+                //if (WalkieTalkieChannels._Instance.Actions.ChannelIncrease.)
+                //{
 
-                }
+                //}
             } 
         }
     }
