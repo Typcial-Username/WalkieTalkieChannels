@@ -1,4 +1,5 @@
 ﻿using LethalCompanyInputUtils.Api;
+using UnityEngine.InputSystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,10 @@ namespace WalkieTalkieChannels.Utils
 {
     internal class ControlActions : LcInputActions
     {
-        //[InputAction("<Keyboard>/c", Name = "Increase Channel")]
-        //public InputAction ChannelIncrease { get; set; }
+        [InputAction("<Keyboard>/c", Name = "Increase Channel")]
+        public InputAction ChannelIncrease { get; set; }
 
-        //[InputAction("<Keyboard>/v", Name = "Decrease Channel")]
-        //public InputAction ChannelDecrease { get; set; }
+        [InputAction("<Keyboard>/v", Name = "Decrease Channel")]
+        public InputAction ChannelDecrease { get; set; }
     }
 }
